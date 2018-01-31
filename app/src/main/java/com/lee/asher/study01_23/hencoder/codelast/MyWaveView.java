@@ -22,7 +22,6 @@ public class MyWaveView extends View {
     private int width;
     private Paint circlePaint;
     private Paint textPaint;
-    private Paint pathPaint;
     private Path path;
     private float percent;
 
