@@ -3,17 +3,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2c8c64"
     tools:context="com.lee.asher.study01_23.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="500dp">
+        android:layout_height="wrap_content">
 
-        <com.lee.asher.study01_23.hencoder.codelast.MyWaveView
+        <com.lee.asher.study01_23.hencoder.codelast.SandClockView
             android:id="@+id/custom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true" />
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp" />
+
+        <Button
+            android:id="@+id/x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom"
+            android:layout_marginTop="10dp"
+            android:text="x" />
+
+        <Button
+            android:id="@+id/y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/x"
+            android:text="y" />
+
+        <Button
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/y"
+            android:text="space" />
+
+        <Button
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/space"
+            android:text="+" />
 
     </RelativeLayout>
 
