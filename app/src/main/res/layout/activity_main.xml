@@ -10,10 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.lee.asher.study01_23.hencoder.codelast.SandClockView
+        <com.lee.asher.study01_23.hencoder.code3.CustomView3
             android:id="@+id/custom"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="200dp" />
 
